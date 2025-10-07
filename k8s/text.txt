@@ -1,0 +1,9 @@
+sudo vim /etc/hosts
+    127.0.0.1.        chat-application.com
+
+
+
+1) create namespace and apply it
+2) create mongodb-pv and apply it
+3) create mongo-pvc and apply it
+4) and in last kubectl apply -f .    
